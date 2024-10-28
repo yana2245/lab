@@ -1,0 +1,92 @@
+.block{
+    padding: 5%;
+    display: flex;
+}
+
+.block__column{
+    width: 45%;
+}
+
+.block__button{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: rgb(72, 109, 98);
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.block__title1{
+    font-size: 68px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.block__title2{
+    font-size: 32px;
+    color: #a2cfb1;
+    width: 550px;
+}
+
+.block__button1{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color:  rgb(252, 147, 72);
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    font-size: 32px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.picture{
+    text-align: end;
+}
+
+.block__about{
+    width: 45%;
+    margin-left: 50px;
+}
+
+.about__title{
+    font-size: 60px;
+}
+
+.about__user{
+    display: flex;
+    margin-top: 20px;
+}
+
+.user__photo{
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
+.user__info{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pline{
+    white-space: pre-line;
+}
+
+.user__name{
+    font-weight: bold;
+}
+
+.user__country{
+    color: #9e9e9e;
+}
+
+.user__review{
+    margin-top: 20px;
+    color: #9e9e9e;
+}
+
+.user__grade{
+    display: flex;
+    margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+.bottom-menu{
+    display: flex;
+}
+
+.bottom-menu__logo{
+    color: gray;
+}
+
+.bottom-menu__group{
+    display: flex;
+    list-style: none;
+}
+
+.bottom-menu__item{
+    color: gray;
+}
+
+.bottom-menu__button1{
+    background-color:unset;
+    margin-top: 100px;
+    margin-left: 10%;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 32px;
+    color: gray;
+}
+
+.bottom-menu__button2{
+    margin-top: 75px;
+    background-color: rgb(255, 106, 0);
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+    color: white;
+}
+

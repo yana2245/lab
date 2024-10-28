@@ -1,0 +1,80 @@
+.menu{
+    display: flex;
+}
+
+.menu__logo{
+    color: #FFFFFF;
+}
+
+.menu__group{
+    display: flex;
+    list-style: none;
+}
+
+.menu__item{
+    color: #FFFFFF;
+}
+
+.menu__button1{
+    background-color:unset;
+    margin-top: 100px;
+    margin-left: 10%;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.menu__button2{
+    margin-top: 75px;
+    background-color: rgb(255, 106, 0);
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.logo{
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.item{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.button{
+    border: 0;
+    font-size: 32px;
+}
+.underline {
+    background: #C4C4C4;
+    width: 35px;
+    height: 4px;
+    top: 81px;
+    left: 430px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+}
+.underline {
+    background: #C4C4C4;
+    width: 35px;
+    height: 4px;
+    top: 81px;
+    left: 430px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+}
