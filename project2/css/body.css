@@ -1,0 +1,17 @@
+.body {
+    background-color: rgb(219, 218, 218);
+
+    font-family:"Poppins", sans-serif;
+    font-size: 32px;
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: "Poppins"; 
+    src: url("/css/font/Poppins/Poppins-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
