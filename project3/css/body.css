@@ -1,0 +1,16 @@
+.body {
+    background-color: rgb(172, 172, 172);
+    font-size: 32px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1170px;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Joti"; 
+    src: url("../css/font/JOTIONE-REGULAR.TTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
