@@ -1,0 +1,132 @@
+.navbar {
+    color: #fff;
+    padding: 15px;
+    width: 90%;
+    max-width: 1200px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar__logo {
+    justify-content: center;
+    margin-left: 30px;
+    display: flex;
+    cursor: pointer;
+    font-family: "SpaceMono";
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.logo__image{
+    justify-content: center;
+    margin-right: 15px;
+    height: 30px;
+}
+
+.navbar__links {
+  padding: 0;
+  margin: 0;
+  font-family: "FontSans", sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease all, 0s ease background;
+  white-space: nowrap;
+}
+
+.navbar__li {
+  padding: 0 15px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease all, 0s ease margin;
+}
+
+.navbar__button {
+  background: #a259ff;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 25px;
+  border: 1px solid #a259ff;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  justify-content: right;
+}
+
+.navbar__menu-logo{
+  height: 0px;
+  margin-top: -15px;
+}
+
+.navbar__menu-li{
+  margin: 10px 20px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.navbar__dropdown {
+  height: 0px;
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  
+  .navbar__right-zone {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .navbar__links {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  .navbar__menu-logo{
+    height: 30px;
+  }
+
+  .navbar__menu-ul {
+    font-family: "FontSans", sans-serif;
+    font-size: 30px; 
+    left: -300px; 
+    margin: 10px; 
+    padding: 5px;
+    list-style: none;
+    background-color: rgba(78, 79, 115, 0.8);
+    display: none; 
+    position: absolute;
+    z-index: 1000;
+  }
+  .navbar__checkbox:checked + .navbar__burger + .navbar__menu-ul {
+    display: block; 
+}
+  .navbar__dropdown {
+    display: inherit;    
+    position: relative;
+  }
+  .navbar__burger, .navbar__close {
+    cursor: pointer; 
+}
+ .navbar__close {
+  display: none; 
+  filter: invert(1);
+}
+.navbar__menu-li {
+  padding: 10px 20px; /* Отступы для пунктов меню */
+  cursor: pointer; /* Указатель в виде руки при наведении */
+}
+
+.navbar__menu-li:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Эффект при наведении */
+}
+}

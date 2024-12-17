@@ -1,0 +1,32 @@
+.body {
+    background-color: #2b2b2b;
+    font-size: 32px;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Joti"; 
+    src: url("../css/font/JOTIONE-REGULAR.TTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-weight: 400;
+    font-family: "WorkSans"; 
+    src: url("../css/font/WorkSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-weight: 400;
+    font-family: "SpaceMono"; 
+    src: url("../css/font/SpaceMono-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

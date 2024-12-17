@@ -1,0 +1,75 @@
+.create-account{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 600px);
+    grid-template-rows: repeat(2, 45%);
+    justify-content: center;
+}
+
+.create-account__column{
+    background-color: #2b2b2b;
+    width: 100%; 
+}
+
+.create-account__image{
+    width: 100%;
+}
+
+.create-account__name-form{
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: "FontSans", sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.create-account__text{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+    font-family: "FontSans", sans-serif;
+    color: white;
+    font-size: 24px;
+    width: 460px;
+}
+
+.create-account__white-field{
+    display: flex;
+    margin-left: 45px;
+    background-color: white;
+    height: 50px;
+    width: 360px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.create-account__field-image{
+    margin-top: 13px;
+    margin-left: 13px;
+    height: 50%;
+}
+
+.create-account__input-field{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    height: 50px;
+    width: 290px;
+    margin-left: 10px;
+    outline: 0 !important;
+}
+
+.create-account__button{
+    color: white;
+    background-color: #a259ff;
+    margin-left: 45px;
+    height: 50px;
+    width: 360px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+    border-style: none;
+}
